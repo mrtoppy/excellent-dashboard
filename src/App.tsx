@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
-  BarChart3, 
   MessageSquare, 
   Truck, 
   Users, 
   Droplet, 
   BookOpen, 
-  MapPin, 
   QrCode, 
   Search,
   FileText,
