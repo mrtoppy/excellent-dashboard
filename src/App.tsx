@@ -130,14 +130,6 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-3">
-              {/* โลโก้สมมติ (แทนที่ด้วยภาพโลโก้ไปรษณีย์ไทยได้) */}
-              {/*<div className="w-15 h-15 rounded-lg flex items-center justify-center shadow-md bg-white/70 backdrop-blur-sm p-1">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ThailandPost_Logo_%282021%29.svg/3840px-ThailandPost_Logo_%282021%29.svg.png"
-                  alt="Thailand Post"
-                  className="w-full h-full object-contain"
-                />
-              </div>*/}
               <h1 className="text-2xl font-bold text-slate-800 tracking-tight">
                 Excellent <span className="text-red-600">Dashboards</span>
               </h1>
