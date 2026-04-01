@@ -136,8 +136,8 @@ export default function App() {
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ThailandPost_Logo_%282021%29.svg/3840px-ThailandPost_Logo_%282021%29.svg.png"
                   alt="Thailand Post"
                   className="w-full h-full object-contain"
-                />*/}
-              </div>
+                />
+              </div>*/}
               <h1 className="text-2xl font-bold text-slate-800 tracking-tight">
                 Excellent <span className="text-red-600">Dashboards</span>
               </h1>
