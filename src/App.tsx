@@ -131,12 +131,12 @@ export default function App() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-3">
               {/* โลโก้สมมติ (แทนที่ด้วยภาพโลโก้ไปรษณีย์ไทยได้) */}
-              <div className="w-15 h-15 rounded-lg flex items-center justify-center shadow-md bg-white/70 backdrop-blur-sm p-1">
+              {/*<div className="w-15 h-15 rounded-lg flex items-center justify-center shadow-md bg-white/70 backdrop-blur-sm p-1">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ThailandPost_Logo_%282021%29.svg/3840px-ThailandPost_Logo_%282021%29.svg.png"
                   alt="Thailand Post"
                   className="w-full h-full object-contain"
-                />
+                />*/}
               </div>
               <h1 className="text-2xl font-bold text-slate-800 tracking-tight">
                 Excellent <span className="text-red-600">Dashboards</span>
@@ -144,7 +144,7 @@ export default function App() {
             </div>
             <div className="hidden md:block">
               <span className="text-sm font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">
-                ระบบจัดการข้อมูลภายใน สำนักงานไปรษณีย์เขต  1
+                ระบบจัดการข้อมูลภายใน ปข.1
               </span>
             </div>
           </div>
@@ -219,7 +219,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 mt-12 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-slate-500">
-          <p>© 2026 Excellent Dashboards. พัฒนาสำหรับใช้งานภายในหน่วยงานโดย ส่วนระบบไปรษณีย์และสารสนเทศ สำนักงานไปรษณีย์เขต 1 เลขที่ 11/11 ถ.เดชาวุธ ต.ประตูชัย อ.พระนครศรีอยุธยา จ.พระนครศรีอยุธยา 13000 </p>
+          <p>© 2026 Excellent Dashboards. พัฒนาสำหรับใช้งานภายในหน่วยงานโดย ส่วน รป.ปข. 1 </p>
         </div>
       </footer>
     </div>
