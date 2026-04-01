@@ -131,7 +131,7 @@ export default function App() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-3">
               {/* โลโก้สมมติ (แทนที่ด้วยภาพโลโก้ไปรษณีย์ไทยได้) */}
-              <div className="w-15 h-15 rounded-lg flex items-center justify-center shadow-md bg-white p-1">
+              <div className="w-15 h-15 rounded-lg flex items-center justify-center shadow-md bg-white/70 backdrop-blur-sm p-1">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ThailandPost_Logo_%282021%29.svg/3840px-ThailandPost_Logo_%282021%29.svg.png"
                   alt="Thailand Post"
