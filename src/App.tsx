@@ -144,7 +144,7 @@ export default function App() {
             </div>
             <div className="hidden md:block">
               <span className="text-sm font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">
-                ระบบจัดการข้อมูลภายใน
+                ระบบจัดการข้อมูลภายใน สำนักงานไปรษณีย์เขต  1
               </span>
             </div>
           </div>
@@ -219,7 +219,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 mt-12 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-slate-500">
-          <p>© 2026 Excellent Dashboards. พัฒนาสำหรับใช้งานภายในหน่วยงานโดย ส่วนระบบไปรษณีย์และสารสนเทศ ปข.1</p>
+          <p>© 2026 Excellent Dashboards. พัฒนาสำหรับใช้งานภายในหน่วยงานโดย ส่วนระบบไปรษณีย์และสารสนเทศ สำนักงานไปรษณีย์เขต 1 เลขที่ 11/11 ถ.เดชาวุธ ต.ประตูชัย อ.พระนครศรีอยุธยา จ.พระนครศรีอยุธยา 13000 </p>
         </div>
       </footer>
     </div>
