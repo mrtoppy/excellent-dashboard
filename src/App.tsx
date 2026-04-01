@@ -155,7 +155,7 @@ export default function App() {
       <div className="bg-gradient-to-br from-red-600 to-red-800 pb-24 pt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-            ยินดีต้อนรับสู่ศูนย์รวมรายงาน
+            ยินดีต้อนรับสู่ศูนย์รวมรายงาน ปข.1
           </h2>
           <p className="mt-4 text-lg text-red-100 max-w-2xl mx-auto">
             เข้าถึง Dashboard สถิติ และระบบงานต่างๆ ของหน่วยงานได้อย่างรวดเร็วในที่เดียว
