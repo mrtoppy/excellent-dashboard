@@ -120,7 +120,7 @@ const menuItems = [
   description: 'โปรแกรมคำนวณค่าน้ำมันเฉลี่ยต่อวัน สำหรับจ่ายค่าน้ำมันเชื้อเพลิง',
   icon: CalculatorIcon,
   color: 'bg-yellow-700',
-  link: 'https://docs.google.com/spreadsheets/d/1l1cyhehNDsYluSIvUELMuupNZRegFAVicANQwVbXue0/edit?usp=sharing'
+  link: 'https://script.google.com/macros/s/AKfycbwCEx-hYCZQ4uL8yAiKbJeFlYfE57HKS97ibvwLJTxOogowOaO2697Xws2CyMmjuVc/exec'
   },
     {
   id: 9,
@@ -128,7 +128,7 @@ const menuItems = [
   description: 'ระบบแจ้งซ่อมระบบบัตรคิว และ ระบบกล้องวงจรปิด (CCTV)',
   icon: RepeatIcon,
   color: 'bg-red-700',
-  link: 'https://docs.google.com/spreadsheets/d/1l1cyhehNDsYluSIvUELMuupNZRegFAVicANQwVbXue0/edit?usp=sharing'
+  link: 'https://script.google.com/macros/s/AKfycbxUhAXiMZAqJUBryPCOn4OGW2EnadiTPv7fPzWIAtIcOJ-xtybe1FERCi9A6fC6pStf/exec'
   },
 ];
 
