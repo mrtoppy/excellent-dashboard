@@ -11,7 +11,9 @@ import {
   AlertCircle,
   PackageCheck,
   PodcastIcon,
-  SheetIcon
+  SheetIcon,
+  RepeatIcon,
+  CalculatorIcon
 } from 'lucide-react';
 
 // ข้อมูลเมนูต่างๆ (สามารถเพิ่ม/ลบ/แก้ไข ตรงนี้ได้เลย)
@@ -112,6 +114,22 @@ const menuItems = [
   color: 'bg-green-700',
   link: 'https://docs.google.com/spreadsheets/d/1l1cyhehNDsYluSIvUELMuupNZRegFAVicANQwVbXue0/edit?usp=sharing'
   },
+    {
+  id: 9,
+  title: 'คำนวณค่าน้ำมันเฉลี่ยต่อวัน',
+  description: 'โปรแกรมคำนวณค่าน้ำมันเฉลี่ยต่อวัน สำหรับจ่ายค่าน้ำมันเชื้อเพลิง',
+  icon: CalculatorIcon,
+  color: 'bg-yellow-700',
+  link: 'https://docs.google.com/spreadsheets/d/1l1cyhehNDsYluSIvUELMuupNZRegFAVicANQwVbXue0/edit?usp=sharing'
+  },
+    {
+  id: 9,
+  title: 'ระบบแจ้งซ่อมเครื่องใช้ไปรษณีย์',
+  description: 'ระบบแจ้งซ่อมระบบบัตรคิว และ ระบบกล้องวงจรปิด (CCTV)',
+  icon: RepeatIcon,
+  color: 'bg-red-700',
+  link: 'https://docs.google.com/spreadsheets/d/1l1cyhehNDsYluSIvUELMuupNZRegFAVicANQwVbXue0/edit?usp=sharing'
+  },
 ];
 
 export default function App() {
@@ -130,13 +148,21 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-3">
+              {/* โลโก้สมมติ (แทนที่ด้วยภาพโลโก้ไปรษณีย์ไทยได้) */}
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center shadow-md bg-white p-1">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ThailandPost_Logo_%282021%29.svg/3840px-ThailandPost_Logo_%282021%29.svg.png"
+                  alt="Thailand Post"
+                  className="w-full h-full object-contain"
+                />
+              </div>
               <h1 className="text-2xl font-bold text-slate-800 tracking-tight">
                 Excellent <span className="text-red-600">Dashboards</span>
               </h1>
             </div>
             <div className="hidden md:block">
               <span className="text-sm font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">
-                ระบบจัดการข้อมูลภายใน ปข.1
+                ระบบจัดการข้อมูลภายใน
               </span>
             </div>
           </div>
@@ -147,7 +173,7 @@ export default function App() {
       <div className="bg-gradient-to-br from-red-600 to-red-800 pb-24 pt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-            ยินดีต้อนรับสู่ศูนย์รวมรายงาน ปข.1
+            ยินดีต้อนรับสู่ศูนย์รวมรายงาน
           </h2>
           <p className="mt-4 text-lg text-red-100 max-w-2xl mx-auto">
             เข้าถึง Dashboard สถิติ และระบบงานต่างๆ ของหน่วยงานได้อย่างรวดเร็วในที่เดียว
@@ -211,7 +237,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 mt-12 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-slate-500">
-          <p>© 2026 Excellent Dashboards. พัฒนาสำหรับใช้งานภายในหน่วยงานโดย ส่วน รป.ปข. 1 </p>
+          <p>© 2026 Excellent Dashboards. พัฒนาสำหรับใช้งานภายในหน่วยงานโดย ส่วนระบบไปรษณีย์และสารสนเทศ ปข.1</p>
         </div>
       </footer>
     </div>
