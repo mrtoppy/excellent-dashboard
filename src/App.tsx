@@ -128,7 +128,7 @@ const menuItems = [
   description: 'ระบบแจ้งซ่อมระบบบัตรคิว และ ระบบกล้องวงจรปิด (CCTV)',
   icon: RepeatIcon,
   color: 'bg-red-700',
-  link: 'https://script.google.com/macros/s/AKfycbxUhAXiMZAqJUBryPCOn4OGW2EnadiTPv7fPzWIAtIcOJ-xtybe1FERCi9A6fC6pStf/exec'
+  link: 'https://script.google.com/a/macros/thailandpost.com/s/AKfycbyHW_bNeS1QeYisRYnQ55Ao327N9Udi7LvRYS6OmeweRZHFk4yJOpDYVjZvtGo3Dt2E/exec'
   },
 ];
 
